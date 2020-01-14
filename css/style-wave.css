@@ -3571,7 +3571,84 @@ textarea.form-control {
 }
 
 /*=============================================================== RESPONSIVE ======================================================*/
+@media screen and (max-width: 1023px) {
 
+    .about-details {
+        margin: 0px;
+        margin-top: 0px;
+    }
+
+    .navbar-nav {
+        float: right;
+
+        margin-right: 0px;
+    }
+    .navbar-default.small .navbar-nav {
+        float: right;
+
+        margin-right: 0px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+        letter-spacing: 1px;
+        font-size: 18px;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        padding: 10px 2px;
+        text-align: center;
+    }
+
+    .skillblock-details {
+        padding-left: 0px;
+        display: table-cell;
+        vertical-align: middle;
+        padding-right: 0px;
+    }
+    #portfoliolist .portfolio {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        width: 50%;
+        margin-right: 0%;
+        display: none;
+        float: left;
+        overflow: hidden;
+        margin-bottom: 0%;
+    }
+    .info-details {
+
+    }
+    .container{
+        width: 100%
+    }
+
+    .about-social-icon {
+        padding: 0px 0px;
+        padding-bottom: 0px;
+    }
+    .me-grid {
+        padding-bottom: 100px;
+        background-position: center center;
+        background-size: auto;
+    }
+    .day-text {
+        padding: 0px 0px;
+    }
+
+    .extramar{
+        margin-bottom: 50px;
+    }
+
+    .me-grid {
+        padding-bottom: 100px;
+        background-position: center center;
+        background-size: auto;
+        overflow: hidden;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -3589,6 +3666,18 @@ textarea.form-control {
         float: right;
 
         margin-right: 0px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+        letter-spacing: 1px;
+        font-size: 18px;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        padding: 10px 2px;
+        text-align: center;
     }
 
     .skillblock-details {
@@ -4030,15 +4119,19 @@ textarea.form-control {
     }
 
     .hometext h3 {
-        font-size: 42px;
+        font-size: 30px;
         color: white;
         letter-spacing: 2px;
         margin-bottom: 25px;
-        margin-top: 0px;
+        margin-top: -4.5em;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         position: relative;
     }
+    #home > div.home-content-main > div > div > div > div > div > p{
+        margin-bottom: 0px;
+    }
+
     #filters li {
         margin-right: 0px;
         display: inline-block;
@@ -4176,7 +4269,7 @@ textarea.form-control {
         color: white;
         letter-spacing: 2px;
         margin-bottom: 25px;
-        margin-top: 0px;
+        margin-top: -7.5em;
         font-weight: 600;
         position: relative;
 
@@ -4215,10 +4308,19 @@ textarea.form-control {
         color: white;
         letter-spacing: 1px;
         margin-bottom: 25px;
-        margin-top: 0px;
+        margin-top: -7.5em;
         font-weight: 600;
         position: relative;
     }
+
+    #home > div.home-content-main > div > div > a{
+        font-size: 17px;
+    }
+
+    .submit {
+        font-size: 13px;
+    }
+
     .about-title-left h1 {
         margin: 0px;
         margin-top: 0px;
