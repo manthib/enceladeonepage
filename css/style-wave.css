@@ -4636,7 +4636,7 @@ body > div.main-page-content > div.skill-main-profondeur > div > div.row.main-ro
     color: #004151;
 }
 
-
+#bs-example-navbar-collapse-1 > ul > li:nth-child(7) > a > img,
 #bs-example-navbar-collapse-1 > ul > li:nth-child(8) > a > img,
 #bs-example-navbar-collapse-1 > ul > li:nth-child(9) > a > img{
     margin-top: -7px;
